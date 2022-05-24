@@ -1,6 +1,9 @@
-## In case it's your first time running opencv project, unlike libtorch you have to install opencv on your linux. otherwise you can start at `build and run executable`.
-
 ## INSTALLING C++ DISTRIBUTIONS OF OPENCV
+
+
+In case it's your first time running opencv project, unlike libtorch you have to install opencv on your linux. otherwise you can start at `build and run executable`.
+
+
 - First of all install dependencies:
 ```shell 
         sudo apt-get update
