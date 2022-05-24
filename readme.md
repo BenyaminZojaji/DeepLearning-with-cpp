@@ -1,7 +1,7 @@
 ## INSTALLING C++ DISTRIBUTIONS OF OPENCV
 
 
-In case it's your first time running opencv project, unlike libtorch you have to install opencv on your linux. otherwise you can start at `build and run executable`.
+In case it's your first time running opencv project, unlike libtorch you have to install opencv on your linux. otherwise you can start at **build and run executable**.
 
 
 - First of all install dependencies:
@@ -50,13 +50,31 @@ Note that you may remove build folder because you don't need it anymore.
 ```shell
     rm -r ./*
 ```
-## Build and run executable file
+### Build and run executable file
 - This will build your executable file:
 ```shell
     cmake -S ..
     cmake --build . --config Release
 ```
 
+- run executable file:
+```shell
+    ./<file name>
+```
+## INSTALLING C++ DISTRIBUTIONS OF PYTORCH
+First off all you needv to download libtorch from <a href='https://pytorch.org/'>pytorch</a>, then you must unzip it.
+
+
+- unlike opencv it's easier to work with libtorch as you don't need to install it on your device.
+```shell
+        mkdir build
+        cd build
+        cmake -DCMAKE_PREFIX_PATH=/absolute/path/to/libtorch ..
+```
+### Build and run executable file
+```shell
+        cmake --build . --config Release 
+```
 - run executable file:
 ```shell
     ./<file name>
