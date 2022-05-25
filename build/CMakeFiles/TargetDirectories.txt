@@ -1,3 +1,0 @@
-/home/heravi/benyamin/cpp-codes/cpp_image_processing/build/CMakeFiles/rebuild_cache.dir
-/home/heravi/benyamin/cpp-codes/cpp_image_processing/build/CMakeFiles/edit_cache.dir
-/home/heravi/benyamin/cpp-codes/cpp_image_processing/build/CMakeFiles/DisplayImage.dir
