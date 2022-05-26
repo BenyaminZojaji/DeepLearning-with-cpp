@@ -62,7 +62,7 @@ Note that you may remove build folder because you don't need it anymore.
     ./<file name>
 ```
 ## INSTALLING C++ DISTRIBUTIONS OF PYTORCH
-First off all you needv to download libtorch from <a href='https://pytorch.org/'>pytorch</a>, then you must unzip it.
+First of all you needv to download libtorch from <a href='https://pytorch.org/'>pytorch</a>, then you must unzip it.
 
 
 - unlike opencv it's easier to work with libtorch as you don't need to install it on your device.
